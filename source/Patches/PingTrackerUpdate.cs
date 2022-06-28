@@ -20,7 +20,8 @@ namespace TownOfUs
                 $"Ping: {AmongUsClient.Instance.Ping}ms\n" +
                 (!MeetingHud.Instance
                     ? "<color=#00FF00FF>Modded By: Donners, Term,</color>\n" +
-                    "<color=#00FF00FF>-H & MyDragonBreath</color>\n" : "") +
+                    "<color=#00FF00FF>-H & MyDragonBreath</color>\n" +
+                    "DD Server Hats v2.2\n" + "<color=#2FF7C1>LayZ Color Adaptive Patch</color>\n": "") +
                 (AmongUsClient.Instance.GameState != InnerNet.InnerNetClient.GameStates.Started
                     ? "<color=#00FF00FF>Formerly: Slushiegoose & Polus.gg</color>" : "");
         }
